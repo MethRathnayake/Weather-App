@@ -1,0 +1,121 @@
+
+.form-control{
+    width: 10px;
+    height: 45px;
+}
+
+#search{
+    border-left-width: 1px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    margin-left: 10px;
+    
+}
+
+
+.background-div {
+    width: 100%;
+    height: px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and HTML to ensure no margin/padding */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar background color */
+#nav_bar {
+    background-color: #034694;
+}
+
+/* Container background color */
+#bg {
+    background-color: #034694;
+    
+}
+
+/* Ensure the form and its elements blend with the navbar */
+.form-control {
+    background-color: white;
+    border: 1px solid #034694; /* Ensure the border color matches */
+    color: white; /* Set text color if needed for better visibility */
+}
+
+.btn-primary {
+    background-color: #034694;
+    border-color: #034694;
+}
+
+
+
+form.d-flex input[type="search"] {
+    
+    background-color: #034694;
+    border-color: #034694;
+    color: white; /* Ensure text is visible */
+}
+
+/* Adjust the button image if necessary */
+form.d-flex button img {
+    filter: invert(1); /* Invert colors if the icon is not visible */
+}
+
+#name_nav {
+    color: white;
+}
+
+#search{
+    background-color: white;
+    color: black;
+}
+
+#button-addon2{
+    background-color: #00bfff; /* Light blue */
+    border-color: #00bfff;
+    color: white; /* Ensure the icon/text is readable */
+}
+
+#button-addon2:hover {
+    background-color: #318CE7; /* Slightly darker yellow on hover */
+    border-color: #318CE7;
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+#button-addon2:active {
+    background-color: #00308F; /* Even darker yellow on click */
+    border-color: #00308F;
+    transform: scale(0.95); /* Slightly shrink the button on click */
+}
+
+#weather{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+
+}
+.card-no-bg {
+    background-color: transparent !important;
+    border: none !important;
+  }
+  .card-no-bg .card-body {
+    background-color: transparent !important;
+        color: white;
+
+  }
+
+
+
+
